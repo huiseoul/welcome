@@ -36,7 +36,9 @@
 - MobX 좋아요.
 - 특히 제가(@johnwook) 좋아합니다.(전 코딩 잘 안해요. 참고.)
 - 세번째 task 도 쉬워요. [MobX tutorial](https://mobx.js.org/getting-started.html)을 죽 따라해주세요.
-
+  - 두번째 task 에 MobX 를 적용해도 좋겠습니다.
+  - https://dannyherran.com/2017/03/react-redux-mobx-takeaways 이런 글도 읽고, MobX 공식 문석도 읽어보고, 또 다시 React 로 돌아가서 공식 문서도 읽어보고 그래 주세요.
+  
 # Task IV - Commit!
 
 - 나머지는 하면서 배우기로 해요.
