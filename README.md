@@ -22,7 +22,8 @@
 
 - React 좋아요.
 - 많이 쓰고 있고요.
-- 두번째 task 도 쉽습니다. [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html)을 죽 따라해주세요. 그냥 따라하는 건 아니고, 이를 자신의 github repository 에 올려주세요.
+- 두번째 task 도 쉽습니다. [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html)을 죽 따라해주세요.
+  - 그냥 따라하는 건 아니고, 자기 계정의 github repository 를 만들어 과정을 공유해주세요.
   - 각 단계마다, 혹은 필요할 때마다 commit 및 push 를 해주세요.
   - commit 메시지도 볼게요. 모든 commit message 는 팀분들이 본다는 생각으로 편하게(?) 작성해주세요.
   - 정답이 있는 과제가 아니니, 궁금한 건 이것저것 추가해보셔도 되고 구조를 바꾸셔도 되고 다 돼요.
