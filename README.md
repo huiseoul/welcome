@@ -9,10 +9,11 @@
 - 취향이 존재하는 부분이라 강요하지 않습니다. 현재 멤버들이 주로 사용하는 tool 들을 공유한다 생각해주세요.
 - 첫번째 task 는 아주 쉽습니다. 아래의 각 tool(혹은 자신이 사용할 다른 tool) 을 설치해주세요.
   - IDE: https://code.visualstudio.com/
+    - https://github.com/VSCodeVim/Vim
   - terminal: https://www.iterm2.com/
     - https://github.com/robbyrussell/oh-my-zsh
   - theme: https://draculatheme.com/ (제 취향 @johnwook)
-  - node: https://github.com/creationix/nvm (node 버전관리용. 각 project repository 내에 `.node-version` 파일 있음.)
+  - node: https://github.com/nodenv/nodenv (node 버전관리용. 각 project repository 내에 `.node-version` 파일 있음.)
   - homebrew: https://brew.sh/
     - git
     - yarn
