@@ -36,4 +36,10 @@
 - MobX 좋아요.
 - 특히 제가(@johnwook) 좋아합니다.(전 코딩 잘 안해요. 참고.)
 - 세번째 task 도 쉬워요. [MobX tutorial](https://mobx.js.org/getting-started.html)을 죽 따라해주세요.
-# TBD
+
+# Task IV - Commit!
+
+- 나머지는 하면서 배우기로 해요.
+- 실제 프로젝트에서 버그를 해결해 봅시다.
+- 간단한(?) 버그를 팀분들 중 한분과 짝을 이뤄 해결해봅시다.
+- 목표는 버그를 빨리 잡아 production 환경에 배포하는 일입니다.
