@@ -14,6 +14,7 @@
     - https://github.com/robbyrussell/oh-my-zsh
   - theme: https://draculatheme.com/ (제 취향 @johnwook)
   - node: https://github.com/nodenv/nodenv (node 버전관리용. 각 project repository 내에 `.node-version` 파일 있음.)
+    - https://github.com/nodenv/nodenv-package-rehash
   - homebrew: https://brew.sh/
     - git
     - yarn
