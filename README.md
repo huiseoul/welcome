@@ -8,9 +8,9 @@
 - 메시지나 메일 등을 통해 원하는 계정명(`${영문이름}.${영문성}` 추천)을 말씀해주시면 google 계정을 만들어 드립니다.
 - 생성된 google 계정 메일로 slack 초대 메일도 보낼게요.
 - github ID 를 알려주세요. Huiseoul organization 에 추가하겠습니다.
-  - 기본적으로 모든 engineer는 모든 repository 에 admin 권한으로 접근 가능합니다.
+  - 기본적으로 모든 engineer는 모든 repository 에 admin 권한으로 접근 가능합니다.
 - AWS 계정은 google 계정명으로 생성해서 알려드릴게요.
-  - 기본적으로 모든 engineer는 모든 AWS resource 에 admin 권한을 갖습니다.
+  - 기본적으로 모든 engineer는 모든 AWS resource 에 admin 권한을 갖습니다.
 - Trello 계정을 알려주세요. 위에서 만든 기업 계정으로 가입하시는 것을 추천합니다.
 - Engineer 끼리 노는(?) discord 서버가 있습니다. 위 계정 메일로 초대 하겠습니다. 거절하셔도 돼요.(optional)
 - Step 0 가 끝나면, Step 0 를 끝냈다고 slack channel 에 알려주세요. 환영하겠습니다!
