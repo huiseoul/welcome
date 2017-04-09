@@ -43,7 +43,7 @@
 - Homebrew: https://brew.sh/
   - git, yarn, awscli 등등
 
-# Step 3 - Warm Up::React
+## Step 3 - Warm Up::React
 
 - Huiseoul 의 모든 project 의 client 는 React 를 사용합니다.
 - [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html)을 죽 따라해주세요.
@@ -59,7 +59,7 @@
     - React 의 기본 돌아보기
     - Typescript, TSLint 등 팀 내 적용중인 표준 적용하기
 
-# Step 4 - Warm Up::MobX
+## Step 4 - Warm Up::MobX
 
 - Huiseoul 에서는 React 의 state management 를 위해서 MobX 를 사용합니다.
   - 특히 제가(@johnwook) 좋아해요.(전 코딩 잘 안해요. 참고.)
@@ -70,13 +70,13 @@
     - 팀 내 표준(?)인 MobX 와 친해지기
     - 일을 어떤 식으로 진행하는지 서로 파악하기
 
-# Step 5 - Warm Up::GraphQL
+## Step 5 - Warm Up::GraphQL
 
 - Huiseoul 의 backend 는 GrpahQL 단일 서버로 통일되어 있습니다.
 - [GraphQL Server](https://github.com/apollographql/graphql-server) 를 봐주세요. 
   - tutorial 은 따로 없고, 실제 production code 를 보면서 이야기 나누기로 해요.
 
-# Step 6 - Head First
+## Step 6 - Head First
 
 - 나머지는 하면서 배우기로 해요.
 - 실제 프로젝트에서 버그를 해결해 봅시다.
