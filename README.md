@@ -41,7 +41,7 @@
   - https://github.com/nodenv/nodenv-package-rehash
   - 사족) python 은 pypenv, ruby 는 rbenv 추천해요.
 - Homebrew: https://brew.sh/
-  - git, yarn, awscli 등등
+  - git, yarn, awscli 등등
 
 ## Step 3 - Warm Up::React
 
