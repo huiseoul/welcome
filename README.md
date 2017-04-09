@@ -33,13 +33,13 @@
   - 일만 할 수 있는 상태면 무시해도 된다는 의미입니다.
   
 - IDE: https://code.visualstudio.com/
-  - vim, dracula official, final-newline, material icon theme, tslint 등 추천
+  - vim, dracula official, final-newline, material icon theme, tslint 등 추천
 - Terminal: https://www.iterm2.com/
   - https://github.com/robbyrussell/oh-my-zsh
 - Node.js: https://github.com/nodenv/nodenv
-  - 모든 node.js project 는 repository 내에 `.node-version` 파일이 있습니다.
+  - 모든 node.js project 는 repository 내에 `.node-version` 파일이 있습니다.
   - https://github.com/nodenv/nodenv-package-rehash
-  - 사족) python 은 pypenv, ruby 는 rbenv 추천해요.
+  - 사족) python 은 pypenv, ruby 는 rbenv 추천해요.
 - Homebrew: https://brew.sh/
   - git, yarn, awscli 등등
 
@@ -50,31 +50,31 @@
   - 그냥 따라하는 건 아니고, 자기 계정의 github repository 를 만들어 과정을 공유해주세요.
   - 각 단계마다, 혹은 필요할 때마다 commit 및 push 를 해주세요.
   - commit 메시지도 볼게요. 모든 commit message 는 팀분들이 본다는 생각으로 편하게(?) 작성해주세요.
-  - 정답이 있는 문제가 아니니, 궁금한 건 이것저것 추가해보셔도 되고 구조를 바꾸셔도 되고 다 돼요.
-  - 뭘 어떻게 commit 하라는 건지 모르겠다가 당연할 것 같아요.
-  - 그럼 `뭐가 막혔고 뭐하라는 건지 모르겠다.` 라는 내용으로 issue 를 만들어 주세요. 팀분들이 도와드릴 거예요.
+  - 정답이 있는 문제가 아니니, 궁금한 건 이것저것 추가해보셔도 되고 구조를 바꾸셔도 되고 다 돼요.
+  - 뭘 어떻게 commit 하라는 건지 모르겠다라는 생각이 들거예요.
+  - 그럼 `뭐가 막혔고 뭐하라는 건지 모르겠다.` 라는 내용으로 issue 를 만들어 주세요. 팀분들이 도와드릴 거예요.
   - 때때로 lint 나 typescript 적용 등 현재 project 들에서 적용하는 방식 등을 팀분들이 이슈로 만들어서 올릴 거예요. 그럼 follow up 해주시면 됩니다!
-  - 이 Warm up 의 목적입니다.
-    - 팀원들과의 github communication follow up
-    - React 의 기본 돌아보기
-    - Typescript, TSLint 등 팀 내 적용중인 표준 적용하기
+  - 이 Warm up 의 목적입니다.
+    - 팀원들과의 github communication follow up
+    - React 의 기본 돌아보기
+    - Typescript, TSLint 등 팀 내 적용중인 표준 적용하기
 
 # Step 4 - Warm Up::MobX
 
 - Huiseoul 에서는 React 의 state management 를 위해서 MobX 를 사용합니다.
-  - 특히 제가(@johnwook) 좋아해요.(전 코딩 잘 안해요. 참고.)
+  - 특히 제가(@johnwook) 좋아해요.(전 코딩 잘 안해요. 참고.)
 - [MobX tutorial](https://mobx.js.org/getting-started.html)을 죽 따라해주세요.
   - 두번째 task 에 MobX 를 적용해도 좋겠습니다.
   - https://www.robinwieruch.de/redux-mobx-confusion/ 이런 글도 읽고, MobX 공식 문석도 읽어보고, 또 다시 React 로 돌아가서 공식 문서도 읽어보고 그래 주세요.
-  - 이 Warm up 의 목적입니다.
-    - 팀 내 표준(?)인 MobX 와 친해지기
-    - 일을 어떤 식으로 진행하는지 서로 파악하기
+  - 이 Warm up 의 목적입니다.
+    - 팀 내 표준(?)인 MobX 와 친해지기
+    - 일을 어떤 식으로 진행하는지 서로 파악하기
 
 # Step 5 - Warm Up::GraphQL
 
 - Huiseoul 의 backend 는 GrpahQL 단일 서버로 통일되어 있습니다.
 - [GraphQL Server](https://github.com/apollographql/graphql-server) 를 봐주세요. 
-  - tutorial 은 따로 없고, 실제 production code 를 보면서 이야기 나누기로 해요.
+  - tutorial 은 따로 없고, 실제 production code 를 보면서 이야기 나누기로 해요.
 
 # Step 6 - Head First
 
