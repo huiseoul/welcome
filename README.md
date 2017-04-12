@@ -11,8 +11,10 @@
   - 기본적으로 모든 engineer는 모든 repository 에 admin 권한으로 접근 가능합니다.
 - AWS 계정은 google 계정명으로 생성해서 알려드릴게요.
   - 기본적으로 모든 engineer는 모든 AWS resource 에 admin 권한을 갖습니다.
+- Bug tracker 로 bugsnag 을 사용하고 있습니다. 메일로 초대할게요.
+- CI 로는 CircleCI 를 사용하고 있습니다. Github 계정과 물려있으니, github 계정 처리 완료 후 초대할게요.
 - Trello 계정을 알려주세요. 위에서 만든 기업 계정으로 가입하시는 것을 추천합니다.
-- Engineer 끼리 노는(?) discord 서버가 있습니다. 위 계정 메일로 초대 하겠습니다. 거절하셔도 돼요.(optional)
+- 사내 세미나 개최를 위한 Meetup 이 있습니다. 가입해주세요! https://www.meetup.com/GeekTalk-with-Huiseoul/
 - Step 0 가 끝나면, Step 0 를 끝냈다고 slack channel 에 알려주세요. 환영하겠습니다!
 
 ## Step 1 - 개발 환경 설정::Hardware
