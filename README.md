@@ -33,7 +33,7 @@
 
 - Software 설정은 기본적으로 취향을 타는 부분이니 아래는 현재 팀원들이 사용하는 기본적인 취향이라고 생각해주세요.
   - 일만 할 수 있는 상태면 무시해도 된다는 의미입니다.
-  
+
 - IDE: https://code.visualstudio.com/
   - vim, dracula official, final-newline, material icon theme, tslint 등 추천
 - Terminal: https://www.iterm2.com/
@@ -75,7 +75,7 @@
 ## Step 5 - Warm Up::GraphQL
 
 - Huiseoul 의 backend 는 GrpahQL 단일 서버로 통일되어 있습니다.
-- [GraphQL Server](https://github.com/apollographql/graphql-server) 를 봐주세요. 
+- [GraphQL Server](https://github.com/apollographql/graphql-server) 를 봐주세요.
   - tutorial 은 따로 없고, 실제 production code 를 보면서 이야기 나누기로 해요.
 
 ## Step 6 - Head First
@@ -84,4 +84,5 @@
 - 실제 프로젝트에서 버그를 해결해 봅시다.
 - 간단한(?) 버그를 팀분들 중 한분과 짝을 이뤄 해결해보려고 해요.
 - 여러가지 사정에 따라 Step 5 와 Step 6 사이에 다른 일들이 더해질 수도 있습니다.
+- 우리 팀이 어떤 식으로 일해왔는지는 Trello와 [Sprint Meeting Note](https://github.com/huiseoul/hsMobile/wiki)를 참고해주세요.
 - 이야기하면서 조정해요!
