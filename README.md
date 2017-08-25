@@ -7,6 +7,7 @@
 
 - 메시지나 메일 등을 통해 원하는 계정명(`${영문이름}.${영문성}` 추천)을 말씀해주시면 google 계정을 만들어 드립니다.
 - 생성된 google 계정 메일로 slack 초대 메일도 보낼게요.
+  - slack 은 huiseoul 의 제 1 communication tool 입니다. 업무시간에는 slack 을 가능한 켠 상태로 유지해주세요. 꼭 필요할 때는 동료를 mention 하고, mention 된 내용에 대해서는 가능한 빨리 답변하기로 합니다.
 - github ID 를 알려주세요. Huiseoul organization 에 추가하겠습니다.
   - 기본적으로 모든 engineer는 모든 repository 에 admin 권한으로 접근 가능합니다.
 - AWS 계정은 google 계정명으로 생성해서 알려드릴게요.
