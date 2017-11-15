@@ -15,7 +15,6 @@
 - Bug tracker 로 bugsnag 을 사용하고 있습니다. 메일로 초대할게요.
 - CI 로는 CircleCI 를 사용하고 있습니다. Github 계정과 물려있으니, github 계정 처리 완료 후 초대할게요.
 - Trello 계정을 알려주세요. 위에서 만든 기업 계정으로 가입하시는 것을 추천합니다.
-- 사내 세미나 개최를 위한 Meetup 이 있습니다. 가입해주세요! https://www.meetup.com/GeekTalk-with-Huiseoul/
 - Step 0 가 끝나면, Step 0 를 끝냈다고 slack channel 에 알려주세요. 환영하겠습니다!
 
 ## Step 1 - 개발 환경 설정::Hardware
@@ -27,14 +26,13 @@
 - 무선 키보드, 매직 마우스는 원하는 경우에 한해서 벌크 모델로 드려요.
   - 원할 경우 말씀해주세요.
 - 위에서 이야기한 것들을 본인의 취향에 맞게 결정하셔서 slack 의 `#engineering` channel 에 저(`@johnwook`)를 mention 해서 알려주세요.
-  - 문의는 항상 환영이에요. channel 에 주셔도, 개인 메시지를 주셔도 좋습니다.(channel 선호)
+  - 문의는 항상 환영이에요. channel 에 주셔도, DM 을 주셔도 좋습니다.(channel 선호)
   - 결정이 빠를수록 구매도 빨라집니다.
   
 ## Step 2 - 개발 환경 설정::Software
 
 - Software 설정은 기본적으로 취향을 타는 부분이니 아래는 현재 팀원들이 사용하는 기본적인 취향이라고 생각해주세요.
   - 일만 할 수 있는 상태면 무시해도 된다는 의미입니다.
-
 - IDE: https://code.visualstudio.com/
   - vim, dracula official, final-newline, material icon theme, tslint 등 추천
 - Terminal: https://www.iterm2.com/
@@ -62,20 +60,17 @@
     - React 의 기본 돌아보기
     - Typescript, TSLint 등 팀 내 적용중인 표준 적용하기
 
-## Step 4 - Warm Up::MobX
+## Step 4 - Warm Up::mobx-state-tree
 
-- Huiseoul 에서는 React 의 state management 를 위해서 MobX 를 사용합니다.
+- Huiseoul 에서는 React 의 state management 를 위해서  mobx-state-tree 를 사용합니다.
   - 특히 제가(@johnwook) 좋아해요.(전 코딩 잘 안해요. 참고.)
-- [MobX tutorial](https://mobx.js.org/getting-started.html)을 죽 따라해주세요.
-  - 두번째 task 에 MobX 를 적용해도 좋겠습니다.
-  - https://www.robinwieruch.de/redux-mobx-confusion/ 이런 글도 읽고, MobX 공식 문석도 읽어보고, 또 다시 React 로 돌아가서 공식 문서도 읽어보고 그래 주세요.
-  - 이 Warm up 의 목적입니다.
-    - 팀 내 표준(?)인 MobX 와 친해지기
-    - 일을 어떤 식으로 진행하는지 서로 파악하기
+- [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree)문서를 정독해주세요.
+- 이 Warm up 의 목적입니다.
+  - 팀 내 표준(?)인 MST 와 친해지기
 
 ## Step 5 - Warm Up::GraphQL
 
-- Huiseoul 의 backend 는 GrpahQL 단일 서버로 통일되어 있습니다.
+- Huiseoul 의 backend 는 GrpahQL interface 로 통신합니다.
 - [GraphQL Server](https://github.com/apollographql/graphql-server) 를 봐주세요.
   - tutorial 은 따로 없고, 실제 production code 를 보면서 이야기 나누기로 해요.
 
