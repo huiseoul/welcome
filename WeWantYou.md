@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- Huiseoul 플랫폼팀을 맡고 있는 최종욱입니다.
+- Huiseoul 플랫폼팀을 맡고 있는 최종욱(@johnwook)입니다.
 - Huiseoul 과 함께할 Software engineer 를 찾습니다.
 - 어떤 분을 찾고 있는지, 우리는 어떤 일을 어떻게 하고 있는지, 앞으로 하고 싶은 일은 무엇인지 이야기합니다.
 
