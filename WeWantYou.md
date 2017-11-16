@@ -119,7 +119,7 @@ Bot 은 틀렸을 지 몰라도 messaging 은 틀리지 않았다고 생각합�
 
 ### How to apply
 
-- 다음의 사항을 포함한 문서를 pdf 로 첨부한 후 engineer@huiseoul.com 로 보내주세요. 24 시간 안에 답장 드리겠습니다.
+- 다음의 사항을 포함한 pdf 문서를 첨부한 후 engineer@huiseoul.com 로 보내주세요. 24 시간 안에 답장 드리겠습니다.
   - 기본 인적사항
     - Github 계정 포함
   - 프로젝트 경험
