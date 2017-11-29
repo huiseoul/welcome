@@ -1,4 +1,3 @@
-var assert = require("assert");
 var update = require("./");
 
 describe("update", () => {
