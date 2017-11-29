@@ -19,66 +19,54 @@ describe("update", () => {
     });
 
     it("changes the tree on the directive", () => {
-      assert(state.a.c !== nextState.a.c);
+      expect(state.a.c).not.toBe(nextState.a.c);
     });
 
     it("reuses state on different branches", () => {
-      assert(state.unChanged === nextState.unChanged);
-    });
-
-    it("reuses state on same level", () => {
-      assert(state.a.b === state.a.b);
+      expect(state.unChanged).toBe(nextState.unChanged);
     });
   });
 
   describe("can pass react's test suite", () => {
     it("should support push", () => {
-      assert.deepEqual(update([1], { $push: [7] }), [1, 7]);
+      expect([1], { $push: [7] }).toEqual([1, 7]);
     });
 
     it("should support unshift", () => {
-      assert.deepEqual(update([1], { $unshift: [7] }), [7, 1]);
+      expect(update([1], { $unshift: [7] })).toEqual([7, 1]);
     });
 
     it("should support splice", () => {
-      assert.deepEqual(update([1, 4, 3], { $splice: [[1, 1, 2]] }), [1, 2, 3]);
+      expect(update([1, 4, 3], { $splice: [[1, 1, 2]] })).toEqual([1, 2, 3]);
     });
 
     it("should support merge", () => {
-      assert.deepEqual(update({ a: "b" }, { $merge: { c: "d" } }), {
+      expect(update({ a: "b" }, { $merge: { c: "d" } })).toEqual({
         a: "b",
         c: "d"
       });
     });
 
     it("should support set", () => {
-      assert.deepEqual(update({ a: "b" }, { $set: { c: "d" } }), { c: "d" });
+      expect(update({ a: "b" }, { $set: { c: "d" } })).toEqual({ c: "d" });
     });
 
     it("should support apply", () => {
-      assert.equal(
+      expect(
         update(2, {
           $apply: function(x) {
             return x * 2;
           }
-        }),
-        4
-      );
+        })
+      ).toBe(4);
     });
 
     it("should support deep updates", () => {
-      assert.deepEqual(
-        update({ a: "b", c: { d: "e" } }, { c: { d: { $set: "f" } } }),
-        {
-          a: "b",
-          c: { d: "f" }
-        }
-      );
-    });
-
-    it("should perform safe hasOwnProperty check", () => {
-      assert.deepEqual(update({}, { hasOwnProperty: { $set: "a" } }), {
-        hasOwnProperty: "a"
+      expect(
+        update({ a: "b", c: { d: "e" } }, { c: { d: { $set: "f" } } })
+      ).toEqual({
+        a: "b",
+        c: { d: "f" }
       });
     });
   });
