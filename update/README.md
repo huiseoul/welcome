@@ -1,7 +1,8 @@
-* Acknowlegement
-  * Belows are heavily influenced(almost copy & pasted) from
-    [kolodny/exercises](https://github.com/kolodny/exercises/tree/master/update)
-    repository. Thanks to @kolodny
+# Acknowlegement
+
+* Belows are heavily influenced(almost copy & pasted) from
+  [kolodny/exercises](https://github.com/kolodny/exercises/tree/master/update)
+  repository. Thanks to @kolodny
 
 ## 원본 문제 설명
 
@@ -84,8 +85,8 @@ console.log(state.todos === nextState.todos); // true
 
 ## More to do
 
-* 위의 What to do 는 가장 최소로 해야하는 일입니다 . 아래 일들은 여력이 된다면
-  수행해주세요 .
+* 위의 What to do 는 가장 최소로 해야하는 일입니다 . 아래 일들은 여력이 된다면수
+  행해주세요 .
 * `test.js` 를 보면 , jest 사용을 가정한 test 파일이 있습니다 . 가능한 많은 test
   case 를 통과시켜 주세요 .
   * `npm test` 로 확인 가능
