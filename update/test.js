@@ -27,6 +27,10 @@ describe("update", () => {
   });
 
   describe("can pass react's test suite", () => {
+    it("should support set", () => {
+      expect(update({ a: "b" }, { $set: { c: "d" } })).toEqual({ c: "d" });
+    });
+
     it("should support push", () => {
       expect(update([1], { $push: [7] })).toEqual([1, 7]);
     });
@@ -35,19 +39,11 @@ describe("update", () => {
       expect(update([1], { $unshift: [7] })).toEqual([7, 1]);
     });
 
-    it("should support splice", () => {
-      expect(update([1, 4, 3], { $splice: [[1, 1, 2]] })).toEqual([1, 2, 3]);
-    });
-
     it("should support merge", () => {
       expect(update({ a: "b" }, { $merge: { c: "d" } })).toEqual({
         a: "b",
         c: "d"
       });
-    });
-
-    it("should support set", () => {
-      expect(update({ a: "b" }, { $set: { c: "d" } })).toEqual({ c: "d" });
     });
 
     it("should support apply", () => {
@@ -67,6 +63,10 @@ describe("update", () => {
         a: "b",
         c: { d: "f" }
       });
+    });
+
+    it("should support splice", () => {
+      expect(update([1, 4, 3], { $splice: [[1, 1, 2]] })).toEqual([1, 2, 3]);
     });
   });
 });
