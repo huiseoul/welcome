@@ -58,12 +58,12 @@ More info: https://facebook.github.io/react/docs/update.html#available-commands
 
 ## Environments
 
-* 코드의 실행은 node.js v8.8.1 을 기준으로 합니다 . (`.node-version` 파일 참조 )
-  * 따라서 대부분의 ES2015 문법이 사용 가능합니다 .
+* 코드의 실행은 node.js v8.8.1 을 기준으로 합니다. (`.node-version` 파일 참조 )
+  * 따라서 대부분의 ES2015 문법이 사용 가능합니다.
 
 ## What to do
 
-* 아래의 코드를 만족하는 js 파일을 작성해주세요 .
+* 아래의 코드를 만족하는 js 파일을 작성해주세요.
 
 ```js
 const update = require("./your-file"); // <- this is the file you make;
@@ -79,29 +79,24 @@ console.log(state.todos === nextState.todos); // true
 
 ## How to do
 
-* Github 에 repository 를 만들어주세요 .
-  * 혹은 이 welcome repo 를 fork 해주세요 .
-* 모든 코드의 변경 과정을 잘 정리해서 commit 해주세요 .
-  * commit message 도 잘 적어주세요 .
-* 제한 시간 안에 마무리하신 후 메일로 마무리했다는 것을 알려주세요 .
+* Github 에 repository 를 만들어주세요.
+  * 혹은 이 welcome repo 를 fork 해주세요.
+* 모든 코드의 변경 과정을 잘 정리해서 commit 해주세요.
+  * commit message 도 잘 적어주세요.
+* 제한 시간 안에 마무리하신 후 메일로 마무리했다는 것을 알려주세요.
 
 ## More to do
 
-* 위의 What to do 는 가장 최소로 해야하는 일입니다 . 아래 일들은 여력이 된다면수
-  행해주세요 .
-* `test.js` 를 보면 , jest 사용을 가정한 test 파일이 있습니다 . 가능한 많은 test
-  case 를 통과시켜 주세요 .
+* 위의 What to do 는 가장 최소로 해야하는 일입니다. 아래 일들은 여력이 된다면 수행해주세요.
+* `test.js` 를 보면 , jest 사용을 가정한 test 파일이 있습니다. 가능한 많은 test case 를 통과시켜 주세요 
   * `npm test` 로 확인 가능
-  * test case 의 추가 / 변경 / 삭제 등은 모두 자유롭게 해주세요 .( 이유만 남겨주
-    세요 .)
-* javascript code base 를 typescript 로 옮겨 주세요 .
+  * test case 의 추가 / 변경 / 삭제 등은 모두 자유롭게 해주세요(이유만 남겨주세요).
+* javascript code base 를 typescript 로 옮겨 주세요.
 
 ## Notes
 
-* ' 얼마나 많은 양을 커버하는가 ' 보다 ' 어떻게 문제에 접근하는가 ' 를 더 중요하
-  게 생각합니다 .
-* `More to do` 에 있는 것들은 말 그대로 optional 입니다 . 더 많은 기능을 추가하
-  기보다 , 더 읽기 쉽고 의도를 드러내는 코드에 집중해주세요 .
+* '얼마나 많은 양을 커버하는가' 보다 '어떻게 문제에 접근하는가' 를 더 중요하게 생각합니다.
+* `More to do` 에 있는 것들은 말 그대로 optional 입니다. 더 많은 기능을 추가하기보다 더 읽기 쉽고 자신의 의도를 잘 드러내는 코드에 집중해주세요.
 
 ## References
 
