@@ -1,4 +1,4 @@
-const update = require("immutability-helper");
+const update = require("./your-file");
 
 describe("update", () => {
   describe("has a #$set method that", () => {
