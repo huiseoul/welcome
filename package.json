@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/huiseoul/welcome/issues"
   },
-  "homepage": "https://github.com/huiseoul/welcome#readme"
+  "homepage": "https://github.com/huiseoul/welcome#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
 }
