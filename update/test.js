@@ -1,4 +1,4 @@
-var update = require("./");
+const update = require("immutability-helper");
 
 describe("update", () => {
   describe("has a #$set method that", () => {
@@ -28,7 +28,7 @@ describe("update", () => {
 
   describe("can pass react's test suite", () => {
     it("should support push", () => {
-      expect([1], { $push: [7] }).toEqual([1, 7]);
+      expect(update([1], { $push: [7] })).toEqual([1, 7]);
     });
 
     it("should support unshift", () => {
