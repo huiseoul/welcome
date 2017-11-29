@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/huiseoul/welcome#readme",
   "dependencies": {
+    "immutability-helper": "^2.5.1",
     "jest": "^21.2.1"
   },
   "devDependencies": {
