@@ -1,0 +1,24 @@
+{
+  "name": "welcome",
+  "version": "1.0.0",
+  "description": "Welcome to Huiseoul",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiseoul/welcome.git"
+  },
+  "author": "@johnwook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huiseoul/welcome/issues"
+  },
+  "homepage": "https://github.com/huiseoul/welcome#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
+  }
+}
