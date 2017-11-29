@@ -16,10 +16,9 @@
     "url": "https://github.com/huiseoul/welcome/issues"
   },
   "homepage": "https://github.com/huiseoul/welcome#readme",
-  "dependencies": {
-    "jest": "^21.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "jest": "^21.2.1",
     "prettier": "^1.8.2"
   }
 }
