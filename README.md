@@ -81,4 +81,5 @@
 - 간단한(?) 버그를 팀분들 중 한분과 짝을 이뤄 해결해보려고 해요.
 - 여러가지 사정에 따라 Step 5 와 Step 6 사이에 다른 일들이 더해질 수도 있습니다.
 - 우리 팀이 어떤 식으로 일해왔는지는 Trello와 [Sprint Meeting Note](https://github.com/huiseoul/hsMobile/wiki)를 참고해주세요.
+ * Sprint Meeting Note 는 private repo wiki 링크로, huiesoul 멤버만 접근 가능합니다.
 - 이야기하면서 조정해요!
